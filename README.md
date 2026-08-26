@@ -70,7 +70,6 @@ you profiled the raw data is what catches the errors you introduce yourself.
 | Negative/invalid amounts | present | 0 |
 | Out-of-range ratings | unflagged | flagged |
 
-## Full write-up
+## Download
 
-See [`cleaning_writeup.md`](./cleaning_writeup.md) for the complete step-by-step process,
-including every formula used and the reasoning behind each cleaning decision.
+https://drive.google.com/drive/folders/1SSHNM-GTEl88qnUpadcQobJkKX2n0X7e?usp=sharing to explore interactively.
