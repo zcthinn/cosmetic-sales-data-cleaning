@@ -1,4 +1,4 @@
-# Cosmetic Sales Data Cleaning Project
+# Cosmetic Sales Data Cleaning
 
 A data cleaning project on a simulated 265-row sales dataset for a fictional aesthetic
 clinic chain with six outlets across Singapore. The raw data was intentionally messy —
