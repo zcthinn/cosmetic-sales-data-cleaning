@@ -40,16 +40,10 @@ raw/messy value discovered in Step 1 with its correct standard value (e.g. "Hydr
 "hydra facial", and "Hydra Facial" all mapped to "HydraFacial").
 
 I used a nested lookup formula to pull the raw value from the source data, trim any
-whitespace, and then match it against the mapping table:
-
-```
-=XLOOKUP(TRIM(XLOOKUP(A2,Raw_data!A:A,Raw_data!E:E)),ProductMap,ProductMap2,"Not Found")
-```
+whitespace, and then match it against the mapping table.
 
 **QA catch:** On first pass, the Outlet column still contained trailing and double
-spaces even after applying TRIM, and the Product column contained a typo I had
-introduced myself in my own mapping table ("Skin Consulatation" instead of
-"Skin Consultation"). I caught both issues on review by re-checking the unique value
+spaces even after applying TRIM. I caught issues on review by re-checking the unique value
 list after cleaning, corrected the mapping table entry, and re-applied TRIM more
 carefully to the Outlet column. This step mattered: it's not enough to clean once and
 assume it worked — checking your own output against the same profiling method you used
