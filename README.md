@@ -50,8 +50,7 @@ Google Sheets — Pivot Tables, XLOOKUP, VLOOKUP, TRIM, SUBSTITUTE, VALUE, ABS, 
 ## 🔎 A Real QA Catch (and why it matters)
 
 On my first cleaning pass, two issues slipped through: incomplete whitespace trimming
-in the Outlet column, and a typo I had introduced in my own Product mapping table
-("Skin Consulatation" instead of "Skin Consultation"). I caught both by re-running the
+in the Outlet column. I caught by re-running the
 same Pivot Table profiling process on my *cleaned* output and comparing it against what
 I expected to see.
 
